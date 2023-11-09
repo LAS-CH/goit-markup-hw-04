@@ -379,8 +379,12 @@ gap: 24px;
   overflow: hidden;
 }
 
-.img-portfolio-div:hover .img-portfolio-div-p{
+.img-portfolio-div:hover{
   transform: translateY(0);
+}
+
+.img-portfolio-div-p:hover{
+transform: translateY(0);
 }
 
 .section-team-svg-li-li{
@@ -557,9 +561,7 @@ background-color: #404bbf;
 .footer-div-brand{
   margin-right: 120px;
 }
-.footer-div-media{
 
-}
 .footer-brand-text {
   display: inline-block;
   margin-bottom: 16px;
