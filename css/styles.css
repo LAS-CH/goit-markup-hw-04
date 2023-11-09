@@ -111,7 +111,7 @@ align-items: center;
 
 .header-brand-text {
   position: relative;
-  color:#4D5AE5;
+  color:#404bbf;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -123,7 +123,7 @@ align-items: center;
 
 .header-brand-text:hover,
 .header-brand-text:focus{
-color: #404bbf;
+color: #4D5AE5;
 }
 
 .header-ul li:not(:last-child){
