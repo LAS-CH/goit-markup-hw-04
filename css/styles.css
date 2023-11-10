@@ -291,21 +291,13 @@ margin-right: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   margin-bottom: 8px;
-  padding: 120px 24px 8px;
   border-radius: 4px;
   height: 112px;
   border: 1px solid var(--LIGHT-SLATE, #8E8F99);
   background: var(--CLOUD, #F4F4FD);
 }
 
-.section-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .section-team-title {
   margin-bottom: 72px;
@@ -415,15 +407,7 @@ transform: translateY(0%);
   padding: 180px 0;
 }
 
-.section-two-div{
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  height: 112px;
-  margin-bottom: 8px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-}
+
 .section-team-p {
   text-align: center;
   font-size: 16px;
@@ -595,7 +579,4 @@ gap: 16px;
 
 .section-team{
   fill:transparent;
-}
-.footter-svg-svg{
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
