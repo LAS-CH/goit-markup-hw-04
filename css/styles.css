@@ -83,16 +83,8 @@ img {
   align-items: center;
 }
 
-.header-nav:not(:last-child) {
-  margin-right: 40px;
-}
-
 .header-nav > a:focus,
 .header-nav > a:hover {
-  color: #404bbf;
-}
-
-.current-page {
   color: #404bbf;
 }
 
@@ -151,6 +143,10 @@ img {
   font-size: 16px;
   font-weight: 500;
   color: #2e2f42;
+}
+
+.current-page {
+  color: #404bbf;
 }
 
 .header-address-ul {
@@ -526,6 +522,7 @@ img {
 }
 
 .footer-div {
+  margin-right: 120px;
   display: flex;
   align-items: baseline;
 }
@@ -541,8 +538,8 @@ img {
 }
 
 .footer-div-brand {
-  margin-left: 156px;
   margin-right: 120px;
+  margin-left: 156px;
 }
 
 .footer-brand-text {
